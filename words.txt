@@ -1,0 +1,4 @@
+This post will summarize about collection framework in a convenient way.
+This is continuation of the previous post about Collection Framework in Java.
+This diagram give you the basic understanding of when to use which collection.
+Hello
