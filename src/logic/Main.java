@@ -25,6 +25,20 @@ public class Main {
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println(entry.getKey() + " : " + entry.getValue());
         }
+
+        List<String> strs = new ArrayList<>();
+        strs.add("123");
+        strs.add("234");
+        strs.add("567");
+        strs.add("234");
+        for (int i = 0; i < strs.size(); i++) {
+            System.out.println(strs.get(i));
+        }
+        strs.set(2,"qwe");
+        System.out.println("-----------");
+        for (int i = 0; i < strs.size(); i++) {
+            System.out.println(strs.get(i));
+        }
     }
 
     private Map<String, Integer> countAllWordsInFile(String filename) {
